@@ -1,2 +1,11 @@
-# my-11ty-template
-My starting point for new 11ty projects. I am not assuming this is useful to anyone else and purely reflects how I like to do things. 
+# basic-portflio-site
+A basic image based portfolio website based on 11ty with SASS & Typescript. Will probably have some basic blogging and what-not.
+
+# Set up for dev
+- `npm install`
+- `npm run dev`
+- For more details take a look at the packages.json `scripts` section.
+
+# To Build
+- `npm run build`
+- Netlify (and probably others) will deploy this nicely for you.
