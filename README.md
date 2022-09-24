@@ -9,3 +9,7 @@ A basic image based portfolio website based on 11ty with SASS & Typescript. Will
 # To Build
 - `npm run build`
 - Netlify (and probably others) will deploy this nicely for you.
+
+# git lfs (Large File Service) and Netlify
+- https://docs.netlify.com/large-media/overview/
+- More to come
