@@ -1,3 +1,5 @@
+require("json5/lib/register");
+
 // If you have short codes
 //const registerShortCodes = require("./src/short-codes/");
 
