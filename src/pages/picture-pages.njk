@@ -1,4 +1,17 @@
 ---
-
+pagination:
+    data: picturePages.parsed
+    size: 1
+    alias: picturePage
+permalink: "{{ picturePage.pageName | slug }}/"
 ---
-{{ picturePages | log }}
+
+<h1>
+  {{ picturePage.pageName }}
+</h1>
+
+<div id="images">
+  {% for img in picturePage.images %}
+    <img src="{{ img.path }}" alt="{{ img.title }}" title="{{ img.title }}">
+  {% endfor %}
+</div>

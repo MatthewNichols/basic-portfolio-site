@@ -1,3 +1,6 @@
 {
-  pageName: "Page One"
+  pageName: "Page One",
+  images: [
+    { path: "downtown-denver-at-night.jpg", title: "Downtown Denver at Night" }
+  ]
 }
